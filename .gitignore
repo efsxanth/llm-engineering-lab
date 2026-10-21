@@ -22,3 +22,6 @@ dist/
 
 # Ruff cache
 .ruff_cache/
+
+# workspace
+.workspace/

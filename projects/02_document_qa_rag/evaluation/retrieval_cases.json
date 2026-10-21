@@ -1,0 +1,59 @@
+[
+  {
+    "question": "Which shoes have an EVA foam midsole for everyday walking?",
+    "expected_product": "TrailComfort Walking Shoes",
+    "relevant_products": [
+      "TrailComfort Walking Shoes"
+    ]
+  },
+  {
+    "question": "Which trousers have full-length side zips for putting on over boots?",
+    "expected_product": "RainGuard Waterproof Trousers",
+    "relevant_products": [
+      "RainGuard Waterproof Trousers"
+    ]
+  },
+  {
+    "question": "Which rain jacket has an adjustable hood and pit zips?",
+    "expected_product": "SummitShell Rain Jacket",
+    "relevant_products": [
+      "SummitShell Rain Jacket"
+    ]
+  },
+  {
+    "question": "Which sleeping bag has a comfort rating of 5 degrees Celsius?",
+    "expected_product": "CampRest Sleeping Bag",
+    "relevant_products": [
+      "CampRest Sleeping Bag"
+    ]
+  },
+  {
+    "question": "Which hiking backpack comes with a rain cover and a hydration sleeve?",
+    "expected_product": "ForestLite Daypack",
+    "relevant_products": [
+      "ForestLite Daypack"
+    ]
+  },
+  {
+    "question": "Which shoe inserts include antimicrobial odour-control treatment?",
+    "expected_product": "FreshStep Odour-Control Insoles",
+    "relevant_products": [
+      "FreshStep Odour-Control Insoles"
+    ]
+  },
+  {
+    "question": "Which waterproof trousers are designed for resort skiing?",
+    "expected_product": "StormPeak Ski Trousers",
+    "relevant_products": [
+      "StormPeak Ski Trousers"
+    ]
+  },
+  {
+    "question": "Which products are explicitly described as waterproof trousers?",
+    "expected_product": "RainGuard Waterproof Trousers",
+    "relevant_products": [
+      "RainGuard Waterproof Trousers",
+      "StormPeak Ski Trousers"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-qa-rag"
+version = "0.1.0"
+description = "A document question-answering application using RAG."
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core",
+    "langchain-google-genai",
+    "langchain-groq",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+src = ["src"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["document_qa_rag"]
