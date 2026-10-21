@@ -25,9 +25,34 @@ Key concepts:
 
 [View project](projects/01_customer_feedback_analyser/README.md)
 
+### 02 — Document Q&A with Retrieval-Augmented Generation (RAG)
+
+A modular question-answering application that searches an outdoor-product
+catalogue using Google Gemini embeddings, then generates answers using
+GroqCloud and the retrieved product descriptions. The repository includes
+an original, fictional sample catalogue for demonstration.
+
+Key concepts:
+- CSV document ingestion and validation.
+- Semantic search with embeddings and an in-memory vector store.
+- Retrieval-augmented generation with LangChain.
+- Source attribution through retrieved documents.
+- Retrieval evaluation using Hit Rate@1, Hit Rate@3 and relevance labels.
+- Automated testing with pytest and code quality checks with Ruff.
+
+The sample benchmark retrieved a relevant top-ranked product for all eight
+labelled questions across 20 products. This is a small demonstration result,
+not a general accuracy guarantee.
+
+[View project](projects/02_document_qa_rag/README.md)
+
 ## Repository Organisation
 
 Each project lives in its own numbered directory under `projects/`
 and contains its own source code, examples, tests and documentation.
 
-Additional projects will be added as the lab develops.
+Each project's README provides installation instructions, API configuration,
+and commands for running its examples and tests. Real API keys are not stored
+in the repository; use `.env.example` as a template for a private `.env` file.
+
+Additional projects may be added as the lab develops.
