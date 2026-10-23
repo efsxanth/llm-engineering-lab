@@ -1,0 +1,56 @@
+[
+  {
+    "id": "total_revenue",
+    "question": "What is the total revenue across all sales?",
+    "expected_tools": [
+      "get_total_revenue"
+    ],
+    "expected_answer_terms": [
+      "3678.50"
+    ]
+  },
+  {
+    "id": "total_profit",
+    "question": "What is the total profit across all sales?",
+    "expected_tools": [
+      "get_total_profit"
+    ],
+    "expected_answer_terms": [
+      "1609.50"
+    ]
+  },
+  {
+    "id": "highest_category",
+    "question": "Which product category generated the highest revenue, and how much?",
+    "expected_tools": [
+      "get_revenue_by_category"
+    ],
+    "expected_answer_terms": [
+      "Footwear",
+      "1210.00"
+    ]
+  },
+  {
+    "id": "revenue_and_profit",
+    "question": "What are total revenue and total profit?",
+    "expected_tools": [
+      "get_total_revenue",
+      "get_total_profit"
+    ],
+    "expected_answer_terms": [
+      "3678.50",
+      "1609.50"
+    ]
+  },
+  {
+    "id": "lowest_category",
+    "question": "Which product category generated the lowest revenue, and how much?",
+    "expected_tools": [
+      "get_revenue_by_category"
+    ],
+    "expected_answer_terms": [
+      "Accessories",
+      "521.50"
+    ]
+  }
+]

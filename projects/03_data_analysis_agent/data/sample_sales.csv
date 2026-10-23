@@ -1,0 +1,21 @@
+order_id,order_date,category,product,quantity,unit_price,unit_cost
+S001,2026-09-01,Footwear,Trail Walking Shoes,3,65.00,38.00
+S002,2026-09-02,Outerwear,Rain Jacket,2,110.00,68.00
+S003,2026-09-03,Accessories,Hiking Socks,8,12.50,5.00
+S004,2026-09-04,Equipment,Daypack,4,45.00,24.00
+S005,2026-09-05,Footwear,Hiking Boots,2,125.00,78.00
+S006,2026-09-06,Outerwear,Fleece Jacket,5,58.00,31.00
+S007,2026-09-07,Accessories,Water Bottle,6,18.00,8.00
+S008,2026-09-08,Equipment,Trekking Poles,3,72.00,43.00
+S009,2026-09-09,Footwear,Trail Walking Shoes,4,65.00,38.00
+S010,2026-09-10,Outerwear,Rain Jacket,3,110.00,68.00
+S011,2026-09-11,Accessories,Hiking Socks,10,12.50,5.00
+S012,2026-09-12,Equipment,Daypack,2,45.00,24.00
+S013,2026-09-13,Footwear,Hiking Boots,3,125.00,78.00
+S014,2026-09-14,Outerwear,Fleece Jacket,4,58.00,31.00
+S015,2026-09-15,Accessories,Water Bottle,7,18.00,8.00
+S016,2026-09-16,Equipment,Trekking Poles,2,72.00,43.00
+S017,2026-09-17,Footwear,Trail Walking Shoes,2,65.00,38.00
+S018,2026-09-18,Outerwear,Rain Jacket,1,110.00,68.00
+S019,2026-09-19,Accessories,Hiking Socks,5,12.50,5.00
+S020,2026-09-20,Equipment,Daypack,3,45.00,24.00

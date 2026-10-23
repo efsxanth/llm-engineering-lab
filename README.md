@@ -56,3 +56,13 @@ and commands for running its examples and tests. Real API keys are not stored
 in the repository; use `.env.example` as a template for a private `.env` file.
 
 Additional projects may be added as the lab develops.
+
+### 03 — AI Data Analysis Agent
+
+A Python AI agent built with **LangChain, LangGraph and GroqCloud** that analyses synthetic sales data using predefined analytical tools.
+
+The agent autonomously selects tools to calculate revenue, profit and category-level statistics, then generates answers using the calculated results.
+
+Includes CSV validation, multi-step tool execution, **11 automated tests** and a five-question evaluation benchmark. All five cases passed the expected tool-selection and answer checks.
+
+[View Project 03](projects/03_data_analysis_agent/README.md)
