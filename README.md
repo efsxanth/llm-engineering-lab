@@ -46,23 +46,31 @@ not a general accuracy guarantee.
 
 [View project](projects/02_document_qa_rag/README.md)
 
+### 03 — AI Data Analysis Agent
+
+A Python AI agent built with LangChain, LangGraph and GroqCloud that
+analyses a fictional sales dataset using predefined, read-only tools.
+
+Key concepts:
+- LLM-driven tool selection and multi-step agent workflows.
+- CSV ingestion, validation and monetary calculations using Python.
+- Revenue, profit and category-level analysis.
+- Dependency injection and offline agent tests using fake LLM responses.
+- Agent evaluation of expected tool calls and answer terms.
+- Automated testing with pytest and code quality checks with Ruff.
+
+All 11 automated tests passed. In a five-question benchmark using 20 fictional
+sales records, the agent matched the expected tool calls and answer terms in
+all five cases. These limited checks do not establish general agent accuracy.
+
+[View project](projects/03_data_analysis_agent/README.md)
+
 ## Repository Organisation
 
 Each project lives in its own numbered directory under `projects/`
-and contains its own source code, examples, tests and documentation.
+and includes application code, tests and documentation. Some projects
+also include example scripts or evaluation datasets.
 
-Each project's README provides installation instructions, API configuration,
-and commands for running its examples and tests. Real API keys are not stored
-in the repository; use `.env.example` as a template for a private `.env` file.
-
-Additional projects may be added as the lab develops.
-
-### 03 — AI Data Analysis Agent
-
-A Python AI agent built with **LangChain, LangGraph and GroqCloud** that analyses synthetic sales data using predefined analytical tools.
-
-The agent autonomously selects tools to calculate revenue, profit and category-level statistics, then generates answers using the calculated results.
-
-Includes CSV validation, multi-step tool execution, **11 automated tests** and a five-question evaluation benchmark. All five cases passed the expected tool-selection and answer checks.
-
-[View Project 03](projects/03_data_analysis_agent/README.md)
+Each project's README provides setup instructions and commands for running
+its application and tests. Real API keys are not stored in the repository;
+use the root `.env.example` as a template for a private `.env` file.
